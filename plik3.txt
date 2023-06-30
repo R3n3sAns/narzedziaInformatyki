@@ -1,0 +1,12 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+    string imie;
+    cout<<"podaj swoje imię: ";
+    cin >> imie;
+    cout<<"dzień dobry użytkowaniku " <<imie;
+}
+
