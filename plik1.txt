@@ -1,0 +1,18 @@
+#include <iostream>
+
+using namespace std;
+
+int main()
+{
+   float liczba_1;
+   float liczba_2;
+   cout<< "podaj liczbe liczba_1 ";
+   cin>>liczba_1;
+   cout<<"podaj liczbe 2 ";
+   cin>>liczba_2;
+   float wynik;
+   wynik=liczba_1/liczba_2;
+   cout<<wynik;
+  
+ 
+}

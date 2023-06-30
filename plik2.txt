@@ -1,0 +1,22 @@
+#include <iostream>
+
+using namespace std;
+
+int x;
+int y;
+
+
+int main()
+{
+cout<<"podaj liczbę całkowitą rozpoczynającą przedział: ";
+cin>>x;
+cout<<"podaj liczbę całkowitą kończącą przedział: ";
+cin>>y;
+
+for(int i=x; i<=y; i++)
+{
+    cout<<i<<endl;
+}
+
+    return 0;
+}
